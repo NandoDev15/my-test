@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>utilizando css</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /*
+        *   Maneira interna de usar CSS, seu nível herarquio
+        *   tem maior influência em relação ao externo.
+        */
+        h2 {
+            color: #0d0f
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <!--
+        Maneira inline de adicionar o Style
+        seu herarquio nivel tem maior influencia em relação ao 
+        interno e exteno    
+    -->
+    <h1 style="color:blue">CSS</h1>
+
+    <p style="color:red">Forma inline de css</p>
+    <h2>Maneira de usar CSS interno</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Prioridade</th>
+                <th>tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1°</td>
+                <td>inline</td>
+            </tr>
+            <tr>
+                <td>2°</td>
+                <td>interno</td>
+            </tr>
+            <tr>
+                <td>3°</td>
+                <td>externo</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
